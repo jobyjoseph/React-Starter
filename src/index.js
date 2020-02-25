@@ -1,8 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import Button from "./components/utils/Button";
+
 const App = () => {
-  return <h1>Hello React 16,Webpack 4 & Babel 7!</h1>;
+  return (
+    <div>
+      <Button />
+    </div>
+  )
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));

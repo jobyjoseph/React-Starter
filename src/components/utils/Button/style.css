@@ -1,0 +1,15 @@
+button {
+  width: 130px;
+  height: 130px;
+  margin: 20px;
+  background: #2196F3;
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  border-radius: 10px;
+  border-width: 5px;
+  border-left-color: #64B5F6;
+  border-top-color: #64B5F6;
+  border-right-color: #1976D2;
+  border-bottom-color: #1976D2;
+}
