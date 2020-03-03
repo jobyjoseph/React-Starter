@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
 
-function Button() {
+function Button(props) {
   return (
-    <button>20</button>
+    <button onClick={props.onClick}>{props.text}</button>
   )
 }
 
