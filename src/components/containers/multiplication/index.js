@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
 
-function Multiply() {
+function Multiply(props) {
   return (
     <>
-      <div className="lineItem">3 x 5</div>
+      <div className="lineItem">{props.num1} x {props.num2}</div>
       <div className="lineItem">=</div>
     </>
   )
